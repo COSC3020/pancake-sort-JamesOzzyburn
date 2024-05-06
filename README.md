@@ -30,3 +30,5 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## Answer
+For this code I believe the asymptotic runtime to be $\Theta(n^2)$ I believe this because we have four things in total. The first thing is the outer for loop, which contributes $n$. The second thing is finding max number, which also contributes $n$. The third thing is flipping the array and the fourth thing is the inner loop. So in total we have $n + n + n * n$ which can be simplified to $3n *n$ or $n^2$.
